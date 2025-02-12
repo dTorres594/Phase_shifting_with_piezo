@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{06317C84-45C7-4034-807D-DF95CA92E22B}" Type="Ref">/My Computer/Untitled Library 1.lvlib/Pantalla</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -20,15 +19,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Control_Camara.ctl" Type="VI" URL="../Controls/Control_Camara.ctl"/>
+			<Item Name="Control_MaquinaEstados.ctl" Type="VI" URL="../Controls/Control_MaquinaEstados.ctl"/>
+			<Item Name="Control_RegistroDeDatos.ctl" Type="VI" URL="../Controls/Control_RegistroDeDatos.ctl"/>
+		</Item>
 		<Item Name="dospi_1394_grises Folder" Type="Folder" URL="../dospi_1394_grises Folder">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Control_Camara.ctl" Type="VI" URL="../Control_Camara.ctl"/>
-		<Item Name="Control_MaquinaEstados.ctl" Type="VI" URL="../Control_MaquinaEstados.ctl"/>
-		<Item Name="Control_RegistroDeDatos.ctl" Type="VI" URL="../Control_RegistroDeDatos.ctl"/>
-		<Item Name="Ejemplo_FotoRamon.vi" Type="VI" URL="../Ejemplo_FotoRamon.vi"/>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Ejemplo_FotoRamon.vi" Type="VI" URL="../Test/Ejemplo_FotoRamon.vi"/>
+		</Item>
 		<Item Name="Main_PhaseShifting.vi" Type="VI" URL="../Main_PhaseShifting.vi"/>
-		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
