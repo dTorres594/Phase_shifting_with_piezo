@@ -20,6 +20,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="Calib data ---typedef.ctl" Type="VI" URL="../Controls/Calib data ---typedef.ctl"/>
+			<Item Name="Calib states --- typedef.ctl" Type="VI" URL="../Controls/Calib states --- typedef.ctl"/>
 			<Item Name="Control_Camara.ctl" Type="VI" URL="../Controls/Control_Camara.ctl"/>
 			<Item Name="Control_MaquinaEstados.ctl" Type="VI" URL="../Controls/Control_MaquinaEstados.ctl"/>
 			<Item Name="Control_RegistroDeDatos.ctl" Type="VI" URL="../Controls/Control_RegistroDeDatos.ctl"/>
@@ -27,8 +29,18 @@
 		<Item Name="dospi_1394_grises Folder" Type="Folder" URL="../dospi_1394_grises Folder">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Support" Type="Folder">
+			<Item Name="2pi_grises.vi" Type="VI" URL="../Support/2pi_grises.vi"/>
+			<Item Name="Acquire and process.vi" Type="VI" URL="../Support/Acquire and process.vi"/>
+			<Item Name="Calculate phase.vi" Type="VI" URL="../Support/Calculate phase.vi"/>
+			<Item Name="Create image array.vi" Type="VI" URL="../Support/Create image array.vi"/>
+			<Item Name="Destroy image array.vi" Type="VI" URL="../Support/Destroy image array.vi"/>
+			<Item Name="Iteration idx--FGV.vi" Type="VI" URL="../Support/Iteration idx--FGV.vi"/>
+			<Item Name="Move piezo.vi" Type="VI" URL="../Support/Move piezo.vi"/>
+		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Ejemplo_FotoRamon.vi" Type="VI" URL="../Test/Ejemplo_FotoRamon.vi"/>
+			<Item Name="Test camera initialization.vi" Type="VI" URL="../Test/Test camera initialization.vi"/>
 		</Item>
 		<Item Name="Main_PhaseShifting.vi" Type="VI" URL="../Main_PhaseShifting.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -40,6 +52,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
