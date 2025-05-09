@@ -7,15 +7,15 @@ void setup() {
   while (!Serial) {
     Serial.println("Starting...");
   }
+  Serial.println("LED controller");
+  delay(20);
   pinMode(Red_pin,OUTPUT);
   pinMode(Green_pin,OUTPUT);
   pinMode(Blue_pin,OUTPUT);
 
   digitalWrite(Red_pin, LOW);
   digitalWrite(Green_pin, LOW);
-  digitalWrite(Blue_pin, LOW);
-  delay(20);
-  Serial.println("LED controller");
+  digitalWrite(Blue_pin, LOW);   
 }
 
 void loop() {
