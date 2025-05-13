@@ -25,6 +25,7 @@
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Calib data ---typedef.ctl" Type="VI" URL="../Controls/Calib data ---typedef.ctl"/>
 			<Item Name="Calib states --- typedef.ctl" Type="VI" URL="../Controls/Calib states --- typedef.ctl"/>
+			<Item Name="Calibration color ---typedef.ctl" Type="VI" URL="../Controls/Calibration color ---typedef.ctl"/>
 			<Item Name="Communication ports ---typedef.ctl" Type="VI" URL="../Controls/Communication ports ---typedef.ctl"/>
 			<Item Name="Control_Camara.ctl" Type="VI" URL="../Controls/Control_Camara.ctl"/>
 			<Item Name="Control_MaquinaEstados.ctl" Type="VI" URL="../Controls/Control_MaquinaEstados.ctl"/>
@@ -35,12 +36,14 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support" Type="Folder">
-			<Item Name="2pi_grises.vi" Type="VI" URL="../Support/2pi_grises.vi"/>
 			<Item Name="Acquire and process.vi" Type="VI" URL="../Support/Acquire and process.vi"/>
 			<Item Name="Attemp Arduino connection.vi" Type="VI" URL="../Support/Attemp Arduino connection.vi"/>
 			<Item Name="Attemp driver connection.vi" Type="VI" URL="../Support/Attemp driver connection.vi"/>
 			<Item Name="Attempt camera connection.vi" Type="VI" URL="../Support/Attempt camera connection.vi"/>
+			<Item Name="Bool array to color.vi" Type="VI" URL="../Support/Bool array to color.vi"/>
 			<Item Name="Calculate phase.vi" Type="VI" URL="../Support/Calculate phase.vi"/>
+			<Item Name="Calibration.vi" Type="VI" URL="../Support/Calibration.vi"/>
+			<Item Name="Color to bool array.vi" Type="VI" URL="../Support/Color to bool array.vi"/>
 			<Item Name="Create image array.vi" Type="VI" URL="../Support/Create image array.vi"/>
 			<Item Name="Destroy image array.vi" Type="VI" URL="../Support/Destroy image array.vi"/>
 			<Item Name="Get piezo voltage.vi" Type="VI" URL="../Support/Get piezo voltage.vi"/>
@@ -48,9 +51,11 @@
 			<Item Name="Initialize Arduino.vi" Type="VI" URL="../Support/Initialize Arduino.vi"/>
 			<Item Name="Initialize piezo driver.vi" Type="VI" URL="../Support/Initialize piezo driver.vi"/>
 			<Item Name="Iteration idx--FGV.vi" Type="VI" URL="../Support/Iteration idx--FGV.vi"/>
+			<Item Name="Move piezo 2.vi" Type="VI" URL="../Support/Move piezo 2.vi"/>
 			<Item Name="Move piezo.vi" Type="VI" URL="../Support/Move piezo.vi"/>
 			<Item Name="Operate LEDs.vi" Type="VI" URL="../Support/Operate LEDs.vi"/>
 			<Item Name="Query instrument.vi" Type="VI" URL="../Support/Query instrument.vi"/>
+			<Item Name="Set initial rect size.vi" Type="VI" URL="../Support/Set initial rect size.vi"/>
 			<Item Name="Set piezo voltage.vi" Type="VI" URL="../Support/Set piezo voltage.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
