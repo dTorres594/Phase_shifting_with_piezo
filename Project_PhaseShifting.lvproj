@@ -32,6 +32,11 @@
 			<Item Name="Control_RegistroDeDatos.ctl" Type="VI" URL="../Controls/Control_RegistroDeDatos.ctl"/>
 			<Item Name="LED panel ---typedef.ctl" Type="VI" URL="../Controls/LED panel ---typedef.ctl"/>
 		</Item>
+		<Item Name="Documentation" Type="Folder">
+			<Item Name="MDT694A-Manual.pdf" Type="Document" URL="../Documentation/MDT694A-Manual.pdf"/>
+			<Item Name="MDT694B-Manual.pdf" Type="Document" URL="../Documentation/MDT694B-Manual.pdf"/>
+			<Item Name="NFL5DP20-Manual.pdf" Type="Document" URL="../Documentation/NFL5DP20-Manual.pdf"/>
+		</Item>
 		<Item Name="dospi_1394_grises Folder" Type="Folder" URL="../dospi_1394_grises Folder">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
