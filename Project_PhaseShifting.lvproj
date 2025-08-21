@@ -51,6 +51,7 @@
 			<Item Name="Attempt camera connection.vi" Type="VI" URL="../Support/Attempt camera connection.vi"/>
 			<Item Name="Bool array to color.vi" Type="VI" URL="../Support/Bool array to color.vi"/>
 			<Item Name="Calculate phase.vi" Type="VI" URL="../Support/Calculate phase.vi"/>
+			<Item Name="Calculate piezo V array.vi" Type="VI" URL="../Support/Calculate piezo V array.vi"/>
 			<Item Name="Color to bool array.vi" Type="VI" URL="../Support/Color to bool array.vi"/>
 			<Item Name="Create image array.vi" Type="VI" URL="../Support/Create image array.vi"/>
 			<Item Name="Destroy image array.vi" Type="VI" URL="../Support/Destroy image array.vi"/>
@@ -70,6 +71,7 @@
 			<Item Name="Ejemplo_FotoRamon.vi" Type="VI" URL="../Test/Ejemplo_FotoRamon.vi"/>
 			<Item Name="Test camera initialization.vi" Type="VI" URL="../Test/Test camera initialization.vi"/>
 		</Item>
+		<Item Name="Calibration parameters--typedef.ctl" Type="VI" URL="../Controls/Calibration parameters--typedef.ctl"/>
 		<Item Name="Calibration.vi" Type="VI" URL="../Support/Calibration.vi"/>
 		<Item Name="Main_PhaseShifting.vi" Type="VI" URL="../Main_PhaseShifting.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
