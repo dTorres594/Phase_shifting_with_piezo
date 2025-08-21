@@ -30,6 +30,7 @@
 			<Item Name="Calib data ---typedef.ctl" Type="VI" URL="../Controls/Calib data ---typedef.ctl"/>
 			<Item Name="Calib states --- typedef.ctl" Type="VI" URL="../Controls/Calib states --- typedef.ctl"/>
 			<Item Name="Calibration color ---typedef.ctl" Type="VI" URL="../Controls/Calibration color ---typedef.ctl"/>
+			<Item Name="Calibration parameters--typedef.ctl" Type="VI" URL="../Controls/Calibration parameters--typedef.ctl"/>
 			<Item Name="Communication ports ---typedef.ctl" Type="VI" URL="../Controls/Communication ports ---typedef.ctl"/>
 			<Item Name="Control_Camara.ctl" Type="VI" URL="../Controls/Control_Camara.ctl"/>
 			<Item Name="Control_MaquinaEstados.ctl" Type="VI" URL="../Controls/Control_MaquinaEstados.ctl"/>
@@ -71,7 +72,6 @@
 			<Item Name="Ejemplo_FotoRamon.vi" Type="VI" URL="../Test/Ejemplo_FotoRamon.vi"/>
 			<Item Name="Test camera initialization.vi" Type="VI" URL="../Test/Test camera initialization.vi"/>
 		</Item>
-		<Item Name="Calibration parameters--typedef.ctl" Type="VI" URL="../Controls/Calibration parameters--typedef.ctl"/>
 		<Item Name="Calibration.vi" Type="VI" URL="../Support/Calibration.vi"/>
 		<Item Name="Main_PhaseShifting.vi" Type="VI" URL="../Main_PhaseShifting.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
