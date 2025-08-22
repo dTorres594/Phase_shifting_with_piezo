@@ -26,6 +26,9 @@
 		<Item Name="3rd party" Type="Folder">
 			<Item Name="LED_Control.ino" Type="Document" URL="../3rd party/LED_Control/LED_Control.ino"/>
 		</Item>
+		<Item Name="config" Type="Folder">
+			<Item Name="config.ini" Type="Document" URL="../config/config.ini"/>
+		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Calib data ---typedef.ctl" Type="VI" URL="../Controls/Calib data ---typedef.ctl"/>
 			<Item Name="Calib states --- typedef.ctl" Type="VI" URL="../Controls/Calib states --- typedef.ctl"/>
@@ -55,6 +58,7 @@
 			<Item Name="Calculate phase.vi" Type="VI" URL="../Support/Calculate phase.vi"/>
 			<Item Name="Calculate piezo V array.vi" Type="VI" URL="../Support/Calculate piezo V array.vi"/>
 			<Item Name="Color to bool array.vi" Type="VI" URL="../Support/Color to bool array.vi"/>
+			<Item Name="Config file path--constant.vi" Type="VI" URL="../Support/Config file path--constant.vi"/>
 			<Item Name="Create image array.vi" Type="VI" URL="../Support/Create image array.vi"/>
 			<Item Name="Destroy image array.vi" Type="VI" URL="../Support/Destroy image array.vi"/>
 			<Item Name="Get piezo voltage.vi" Type="VI" URL="../Support/Get piezo voltage.vi"/>
@@ -67,6 +71,7 @@
 			<Item Name="Operate LEDs.vi" Type="VI" URL="../Support/Operate LEDs.vi"/>
 			<Item Name="Port config dialog.vi" Type="VI" URL="../Support/Port config dialog.vi"/>
 			<Item Name="Query instrument.vi" Type="VI" URL="../Support/Query instrument.vi"/>
+			<Item Name="Save port config.vi" Type="VI" URL="../Support/Save port config.vi"/>
 			<Item Name="Set initial rect size.vi" Type="VI" URL="../Support/Set initial rect size.vi"/>
 			<Item Name="Set piezo voltage.vi" Type="VI" URL="../Support/Set piezo voltage.vi"/>
 		</Item>
@@ -75,6 +80,7 @@
 			<Item Name="Test camera initialization.vi" Type="VI" URL="../Test/Test camera initialization.vi"/>
 		</Item>
 		<Item Name="Calibration.vi" Type="VI" URL="../Support/Calibration.vi"/>
+		<Item Name="Load port config.vi" Type="VI" URL="../Support/Load port config.vi"/>
 		<Item Name="Main_PhaseShifting.vi" Type="VI" URL="../Main_PhaseShifting.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
