@@ -32,6 +32,7 @@
 			<Item Name="Calibration color ---typedef.ctl" Type="VI" URL="../Controls/Calibration color ---typedef.ctl"/>
 			<Item Name="Calibration parameters--typedef.ctl" Type="VI" URL="../Controls/Calibration parameters--typedef.ctl"/>
 			<Item Name="Communication ports ---typedef.ctl" Type="VI" URL="../Controls/Communication ports ---typedef.ctl"/>
+			<Item Name="Config SM states--typedef.ctl" Type="VI" URL="../Controls/Config SM states--typedef.ctl"/>
 			<Item Name="Control_Camara.ctl" Type="VI" URL="../Controls/Control_Camara.ctl"/>
 			<Item Name="Control_MaquinaEstados.ctl" Type="VI" URL="../Controls/Control_MaquinaEstados.ctl"/>
 			<Item Name="Control_RegistroDeDatos.ctl" Type="VI" URL="../Controls/Control_RegistroDeDatos.ctl"/>
@@ -64,6 +65,7 @@
 			<Item Name="Move piezo 2.vi" Type="VI" URL="../Support/Move piezo 2.vi"/>
 			<Item Name="Move piezo.vi" Type="VI" URL="../Support/Move piezo.vi"/>
 			<Item Name="Operate LEDs.vi" Type="VI" URL="../Support/Operate LEDs.vi"/>
+			<Item Name="Port config dialog.vi" Type="VI" URL="../Support/Port config dialog.vi"/>
 			<Item Name="Query instrument.vi" Type="VI" URL="../Support/Query instrument.vi"/>
 			<Item Name="Set initial rect size.vi" Type="VI" URL="../Support/Set initial rect size.vi"/>
 			<Item Name="Set piezo voltage.vi" Type="VI" URL="../Support/Set piezo voltage.vi"/>
